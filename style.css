@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    width:80%;
+    margin:auto;
+    flex-direction:column;
+}
+
+/* Overall Properties ------------------------*/
+a{
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+    font-weight: 600;
+}
+.skills, .header, .education, .hobbies, .projects{
+    width:100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom:  2px solid teal;
+}
+
+/* Header Section----------------------------- */
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom:  2px solid teal;
+}
+.header-right{
+    width: 230px;
+}
+.header-left i{
+    color:teal;
+    margin-right:10px;    
+}
+.header-right > img{
+    margin-top: 5px;
+    width: 170px;
+    height: 170px;
+    border: 1px solid grey;
+}
+
+/* Objective section----------------------------------- */
+.objective{
+    width:100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom:  2px solid teal;
+}
+.objective .other-info{
+    width:98%;
+    float:right;
+}
+
+/* Skills Section------------------------------------------ */
+.skills{
+    width:100%;
+    /* float:left; */
+    /* display:inline-block; */
+}
+.skills li{
+    width:200px;
+    float:left;
+}
+
+
+/* Education Section------------------------------------------ */
+.education .left{
+    width:60%;
+    float: left;
+}
+.education .right{
+    width:40%;
+    float: left;
+}
+.education .right ul{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    height: 195px;
+    justify-content: space-around;
+}
+
+
+/* Projects Section------------------------------------------ */
+
+
+
+/* Hobbies Section------------------------------------------ */
