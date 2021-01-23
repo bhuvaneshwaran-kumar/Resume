@@ -78,14 +78,11 @@ a {
 }
 
 /* Education Section------------------------------------------ */
-.education .left {
-  width: 60%;
-  float: left;
+.education {
+  display: flex;
+  flex-wrap: wrap;
 }
-.education .right {
-  width: 40%;
-  float: left;
-}
+
 .education .right ul {
   display: flex;
   flex-direction: column;
@@ -101,11 +98,11 @@ a {
   position: relative;
   flex-wrap: wrap;
 }
-.projects h2 {
+/* .projects h2 {
   width: 100%;
 }
 .projects .project {
   width: 50%;
-}
+} */
 
 /* Hobbies Section------------------------------------------ */
