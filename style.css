@@ -91,6 +91,9 @@ a {
   justify-content: space-around;
 }
 
+#span {
+  display: none;
+}
 /* Projects Section------------------------------------------ 
 */
 .projects {
@@ -98,11 +101,31 @@ a {
   position: relative;
   flex-wrap: wrap;
 }
-/* .projects h2 {
+.projects h2 {
   width: 100%;
 }
 .projects .project {
   width: 50%;
-} */
+}
 
+@media screen and (max-width: 480px) {
+  .main-container {
+    margin: 0px;
+    width: 100%;
+  }
+  .header-left h1 {
+    font-size: larger;
+    text-align: center;
+  }
+  .projects .project {
+    width: 100%;
+  }
+  #span {
+    display: inline-block;
+    margin-top: -20px;
+  }
+  #span-2 {
+    display: none;
+  }
+}
 /* Hobbies Section------------------------------------------ */
